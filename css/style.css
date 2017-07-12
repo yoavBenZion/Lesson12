@@ -81,8 +81,8 @@ ul {
 
 ul li {
   background-color: yellow;
-  border: 1px solid blue;
-  margin: 2px auto;
+  border: 2px solid blue;
+  margin: 7px auto;
   border-radius: 7%;
   font-size: 1.5em;
   list-style: none;
@@ -94,18 +94,18 @@ FOOTER
 *********************/
 
 footer {
-  font-size: 0.75em;
+  font-size: 1.4em;
   text-align: center;
   padding-top: 45px;
   color: #000;
   margin: 0 auto;
 }
 
-.social-icon {
-  width: 30px;
-  height: 30px;
-  margin: 5px 5px;
-}
+ .social-icon {
+    width: 60px;
+    height: 60px;
+    margin: 5px 15px;
+  }
 
 
 /*Media Querie*/
@@ -119,6 +119,16 @@ footer {
     padding: 0 2px;
     }
   
+  
+  .social-icon {
+  width: 30px;
+  height: 30px;
+  margin: 5px 5px;
+}
+  
+  footer {
+    font-size: 0.75em;
+  }
 
 }
 
