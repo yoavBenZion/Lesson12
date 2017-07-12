@@ -1,14 +1,87 @@
-/*Genral*/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+/*************
+Genral
+*******/
+/** {border: 1px solid black;}*/
 
 body {
   margin: 0 auto;
   max-width: 980px;
+  font-family: "Roboto";
 }
 
+main {
+  margin: 0 5px;
+}
 
+/*Header*/
 
 h1 {
   background-color: brown;
   color: #000;
   text-align: center;
+  padding-right: 40px;
 }
+
+img {
+  width: 50px;
+  height: 50px;
+  float: right;
+  position: relative;
+  bottom: 65px;
+  right: 10px;
+/*  margin-top: -50px;*/
+  border: 1px solid black;
+}
+
+a {
+   text-decoration: none;
+}
+
+
+h2 {
+  background-image: linear-gradient(grey, #666, transparent);
+  padding-bottom: 3px;
+  border-bottom: 2px solid #005;
+}
+
+div {
+  color: red;
+  border: 5px solid #ad8595;
+  font-size: 25px;
+}
+
+kbd {
+  background-color: grey;
+}
+span, .example {
+  border: 1px solid black;
+  color: #000;
+  margin: 2px:
+}
+
+span {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  text-align: center;
+}
+
+p {
+/*  border: inherit;*/
+}
+
+
+
+ul li {
+  display: inline-block;
+  background-color: yellow;
+  border: 1px solid blue;
+  margin-left: 20px;
+  padding: 2px 2px;
+  border-radius: 7%;
+  font-weight: 500;
+}
+
