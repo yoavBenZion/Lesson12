@@ -25,7 +25,7 @@ h1 {
   padding-right: 40px;
 }
 
-img {
+.top img {
   width: 50px;
   height: 50px;
   float: right;
@@ -84,11 +84,28 @@ ul li {
   border: 1px solid blue;
   margin: 2px auto;
   border-radius: 7%;
-  font-size: 1.2em;
+  font-size: 1.5em;
   list-style: none;
   text-align: center;
 }
 
+/********************
+FOOTER
+*********************/
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  padding-top: 45px;
+  color: #000;
+  margin: 0 auto;
+}
+
+.social-icon {
+  width: 30px;
+  height: 30px;
+  margin: 5px 5px;
+}
 
 
 /*Media Querie*/
@@ -97,8 +114,9 @@ ul li {
   
    ul li {
     display: inline-block;
-    font-size: 1em;
+    font-size: 1.2em;
     margin: 5px 20px 5px;
+    padding: 0 2px;
     }
   
 
