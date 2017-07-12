@@ -76,12 +76,28 @@ p {
 
 
 ul li {
-  display: inline-block;
+/*  display: inline;*/
+  
   background-color: yellow;
   border: 1px solid blue;
-  margin-left: 20px;
+  margin: 5px 20px 5px;;
   padding: 2px 2px;
   border-radius: 7%;
-  font-weight: 500;
+  font-size: 1.2em;
+  list-style: none;
+  text-align: center;
+}
+
+
+/*Media Querie*/
+
+@media (min-width: 670px) {
+  
+   li {
+    display: inline-block;
+    font-size: 1em;
+    }
+  
+
 }
 
