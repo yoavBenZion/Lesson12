@@ -54,7 +54,8 @@ div {
 }
 
 kbd {
-  background-color: grey;
+  background-color: lightgray;
+  padding: 0 2px;
 }
 span, .example {
   border: 1px solid black;
@@ -69,8 +70,10 @@ span {
   text-align: center;
 }
 
-p {
-/*  border: inherit;*/
+.blabla {
+  line-height: 1.2;
+  background-color: lightgrey;
+  padding: 0 2px;
 }
 
 ul {
@@ -99,6 +102,8 @@ footer {
   padding-top: 45px;
   color: #000;
   margin: 0 auto;
+
+  border-top: 1px dotted grey;
 }
 
  .social-icon {
