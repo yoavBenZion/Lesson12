@@ -1,0 +1,14 @@
+/*Genral*/
+
+body {
+  margin: 0 auto;
+  max-width: 980px;
+}
+
+
+
+h1 {
+  background-color: brown;
+  color: #000;
+  text-align: center;
+}
